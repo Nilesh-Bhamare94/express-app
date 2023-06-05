@@ -5,5 +5,5 @@ module.exports.UserRoutes = function (router) {
   router.get('/get', Users.getUsers);
   router.get('/user/:id', Users.find);
 //   router.put('/update/:id', Users.updateUser);
-//   router.delete('/remove/:id', Users.removeUser);
+//   router.delete('/remove/:id', Users.removeUser);   deadd
 };
